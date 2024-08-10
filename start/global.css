@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body{
+    background-color: #ffe0ea;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    border-radius: 50%;
+    background-color: rgb(252, 212, 159, 0.5);
+    box-shadow: 0 0 1000px rgb(252, 212, 159);
+    filter: blur(100px);
+    overflow: hidden;
+}
+
+.circle2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border-radius: 50%;
+    background-color: rgba(252, 190, 240, 0.9);
+    box-shadow: 0 0 1000px rgba(252, 190, 240, 0.9);
+    filter: blur(100px);
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+}
+
+.box{
+    width: 1920px;
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.haram > a{
+    text-decoration: none;
+    color: #DA9E86;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute;
+    right: 500px;
+    top: 15px;
+    border: 1px solid #DA9E86;
+    font-family: "Jua", sans-serif;
+
+}
+
+.haram > p{
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: 5px;
+    margin-top: 47px;
+    
+}
+
+.heart > a{
+    text-decoration: none;
+    color: #DA9E86;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute;
+    right: 300px;
+    top: 15px;
+    border: 1px solid #DA9E86;
+    font-family: "Jua", sans-serif;
+    text-align: center;
+}
+
+.heart > p{
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: 5px;
+    margin-top: 15px;
+    
+}
+
+.login{
+    text-decoration: none;
+    color: #DA9E86;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    right: 130px;
+    top: 25px;
+    border: 1px solid #DA9E86;
+    font-family: "Jua", sans-serif;
+}
+
+.mypage{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    border: 1px solid #DA9E86;
+}

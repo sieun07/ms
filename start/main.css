@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.girl{
+    width: 600px;
+    height: 637px;
+    background-image: url("png/소녀.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position :absolute;
+    bottom : 0px;
+    right: 0px;
+
+}
+
+.cat{
+    width: 300px;
+    height: 200px;
+    background-image: url("png/고양이.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position :absolute;
+    bottom : 0px;
+    left: 0px;
+}
+
+.stick{
+    width: 950px;
+    height: 450px;
+    background-image: url("png/막대.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position :absolute;
+    top : 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    background-image: url("png/메인로고.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position :absolute;
+    top : 180px;
+    left: 190px;
+}
+
+.center{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 545px;
+    border-radius: 100%;
+    background-color: rgb(255, 194, 212);
+    filter: blur(40px);
+    overflow: hidden;
+}
+
+.introduce{
+    text-decoration: none;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 330px;
+    left: 570px;
+    display: flex;
+    color: #FF7C9D;
+    font-size: 20px;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+      
+}
