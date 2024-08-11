@@ -36,8 +36,8 @@
     }
 
     .box{
-        width: 1920px;
-        height: 80px;
+        width: 500px;
+        height: 250px;
         background-color: rgb(255, 255, 255, 0.5);
         position: absolute;
         top: 0px;
@@ -56,8 +56,8 @@
         background-color: rgb(255, 255, 255);
         border-radius: 100px;
         position: absolute;
-        right: 110px;
-        top: 350px;
+        right: 130px;
+        top: 30px;
         border: 1px solid #DA9E86;
         font-family: "Jua", sans-serif;
     
@@ -83,8 +83,8 @@
         background-color: rgb(255, 255, 255);
         border-radius: 100px;
         position: absolute;
-        right: 110px;
-        top: 450px;
+        right: 130px;
+        top: 100px;
         border: 1px solid #DA9E86;
         font-family: "Jua", sans-serif;
         text-align: center;
@@ -110,8 +110,8 @@
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
         position: absolute;
-        right: 128px;
-        top: 550px;
+        right: 145px;
+        top: 170px;
         border: 1px solid #DA9E86;
         font-family: "Jua", sans-serif;
     }
@@ -173,35 +173,16 @@
         background-repeat: no-repeat;
         background-size: contain;
         position :absolute;
-        top : 106px;
-        right: 110px;
-    }
-    
-    .center{
-        width: 350px;
-        height: 300px;
-        position: absolute;
-        top: 250px;
-        left: 545px;
-        border-radius: 100%;
-        background-color: rgb(255, 194, 212);
-        filter: blur(40px);
-        overflow: hidden;
+        top : 300px;
+        right: 500px;
     }
     
     .introduce{
-        text-decoration: none;
-        width: 300px;
-        height: 200px;
-        position: absolute;
-        top: 330px;
-        left: 570px;
-        display: flex;
-        color: #FF7C9D;
-        font-size: 20px;
-        justify-content: space-around;
-        text-align: center;
-        font-family: "Jua", sans-serif;
+        display: none;
           
+    }
+
+    .center{
+        display: none;
     }
 }
