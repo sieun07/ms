@@ -73,3 +73,144 @@
     font-family: "Jua", sans-serif;
       
 }
+
+.two{
+    width: 100%;
+    height: 400px;
+    background-color: #FEE9E7;
+    position: absolute;
+    bottom: -400px;
+}
+
+.two > p {
+    font-size: 45px;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.two > h3 {
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.first{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    right: 30px;
+    font-family: "Jua", sans-serif;
+}
+
+.first > img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.first > h5{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+.first > h6{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: gray;
+}
+
+.second{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    right: 380px;
+    font-family: "Jua", sans-serif;
+}
+
+.second > img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.second > h5{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+.second > h6{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: gray;
+}
+
+.third{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    right: 730px;
+    font-family: "Jua", sans-serif;
+}
+
+.third > img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.third > h5{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+.third > h6{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: gray;
+}
+
+.four{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    right: 1080px;
+    font-family: "Jua", sans-serif;
+}
+
+.four > img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.four > h5{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+.four > h6{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: gray;
+}
