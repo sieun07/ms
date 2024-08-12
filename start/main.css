@@ -80,11 +80,11 @@
     background-color: #FEE9E7;
     position: absolute;
     bottom: -400px;
+    left: 0px;
 }
 
 .two > p {
     font-size: 45px;
-    text-align: center;
     font-family: "Jua", sans-serif;
     position: absolute;
     top: 15px;
@@ -105,7 +105,7 @@
     background-color: white;
     position: absolute;
     top: 280px;
-    right: 30px;
+    right: 20px;
     font-family: "Jua", sans-serif;
 }
 
@@ -134,7 +134,7 @@
     background-color: white;
     position: absolute;
     top: 280px;
-    right: 380px;
+    right: 370px;
     font-family: "Jua", sans-serif;
 }
 
@@ -163,7 +163,7 @@
     background-color: white;
     position: absolute;
     top: 280px;
-    right: 730px;
+    right: 720px;
     font-family: "Jua", sans-serif;
 }
 
@@ -192,7 +192,7 @@
     background-color: white;
     position: absolute;
     top: 280px;
-    right: 1080px;
+    right: 1070px;
     font-family: "Jua", sans-serif;
 }
 
