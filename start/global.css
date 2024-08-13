@@ -104,6 +104,7 @@ header{
 }
 
 .haram>a:hover ~ .menubar { display: block; } 
+.menubar:hover {display: block;}
 .menubar { display: none; }
 
 .heart > a{

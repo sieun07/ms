@@ -214,3 +214,61 @@
     left: 50px;
     color: gray;
 }
+
+.three{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(192, 255, 169, 0.5);
+    position: absolute;
+    bottom: -1000px;
+    left: 0px;
+}
+
+.three > h3{
+    width: 100%;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: #28A87B;
+}
+
+#mental_service {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 70px;
+}
+
+.select{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+
+#category{
+    width: 100%;
+    position: absolute;
+    top: -6px;
+    left: 45px;
+    font-family: "Jua", sans-serif;
+    color: #A8DE7E;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+#talk{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+

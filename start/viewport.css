@@ -72,6 +72,42 @@
         margin-top: 47px;
         
     }
+
+    #service{
+        width: 130px;
+        height: 30px;
+        position: absolute;
+        right: 315px;
+        top: 25px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #care{
+        width: 130px;
+        height: 30px;
+        position: absolute;
+        right: 315px;
+        top: 55px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .haram>a:hover ~ .menubar { display: block; } 
+    .menubar:hover {display: block;}
+    .menubar { display: none; }
     
     .heart > a{
         text-decoration: none;
@@ -99,6 +135,78 @@
         margin-top: 15px;
         
     }
+
+    #mental{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 320px;
+        top: 66px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #detail{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 320px;
+        top: 97px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 11px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #health{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 320px;
+        top: 128px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #chatbot{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 320px;
+        top: 158px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    .heart>a:hover ~ .menubar2 { display: block; } 
+    .menubar2:hover {display: block;}
+    .menubar2 { display: none; }
     
     .login{
         text-decoration: none;
@@ -403,6 +511,42 @@
         margin-top: 47px;
         
     }
+
+    #service{
+        width: 130px;
+        height: 30px;
+        position: absolute;
+        right: 455px;
+        top: 67px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #care{
+        width: 130px;
+        height: 30px;
+        position: absolute;
+        right: 455px;
+        top: 97px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .haram>a:hover ~ .menubar { display: block; } 
+    .menubar:hover {display: block;}
+    .menubar { display: none; }
     
     .heart > a{
         text-decoration: none;
@@ -430,6 +574,77 @@
         margin-top: 15px;
         
     }
+    #mental{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 260px;
+        top: 66px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #detail{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 260px;
+        top: 97px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 11px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #health{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 260px;
+        top: 128px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    #chatbot{
+        width: 140px;
+        height: 30px;
+        position: absolute;
+        right: 260px;
+        top: 158px;
+        color: #DA9E86;
+        border: 1px solid #DA9E86;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: "Jua", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    .heart>a:hover ~ .menubar2 { display: block; } 
+    .menubar2:hover {display: block;}
+    .menubar2 { display: none; }
     
     .login{
         text-decoration: none;
@@ -507,6 +722,7 @@
         position :absolute;
         top : 100px;
         left: 420px;
+        z-index: -1;
     }
     
     .center{
