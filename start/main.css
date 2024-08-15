@@ -969,7 +969,6 @@
     align-items: center;
 }
 
-
 .graph8{
     width: 400px;
     height: 130px;
@@ -1000,7 +999,7 @@
     position: absolute;
     top: 30px;
     font-size: 25px;
-    color: #B28BFF;
+    color: #001D6C;
 }
 
 .five > p {
@@ -1010,14 +1009,6 @@
     font-family: "Jua", sans-serif;
     position: absolute;
     top: 45px;
-}
-
-#se{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 
 .chat4{
@@ -1176,30 +1167,65 @@
 }
 
 .communication{
-    width: 280px;
-    height: 70px;
+    width: 330px;
+    height: 60px;
     background-color: white;
     position: absolute;
     top: 280px;
-    left: 410px;
-    border-color: #C0F7FF;
+    left: 420px;
+
 }
 
 .communication > p{
     width: 100%;
     position: absolute;
-    top: -8px;
-    left: 50px;
+    top: -12px;
+    left: 20px;
     font-family: "Jua", sans-serif;
     color: #52DDF4;
     font-size: 20px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 #ni{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+.communication2{
+    width: 330px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    right: 550px;
+
+}
+
+.communication2 > p{
+    width: 100%;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-family: "Jua", sans-serif;
+    color: #52DDF4;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#ten{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
     left: 10px;
 }
