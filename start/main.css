@@ -43,7 +43,7 @@
     background-size: contain;
     position :absolute;
     top : 180px;
-    left: 25%;
+    left: 15%;
 }
 
 .center{
@@ -555,7 +555,7 @@
     height: 150px;
     position: absolute;
     top: -50px;
-    left: 310px;
+    left: -40px;
     z-index: 1;
 }
 
@@ -1179,7 +1179,9 @@
     background-color: white;
     position: absolute;
     top: 280px;
-    left: 420px;
+    left: 28%;
+    border-color: #C0F7FF;
+    border-width: 1px;
 
 }
 
@@ -1195,6 +1197,7 @@
     justify-content: space-around;
     align-items: center;
 
+
 }
 
 #ni{
@@ -1206,12 +1209,12 @@
 }
 
 .communication2{
-    width: 330px;
+    width: 280px;
     height: 60px;
     background-color: white;
     position: absolute;
     top: 400px;
-    right: 550px;
+    right: 47%;
 
 }
 
@@ -1221,7 +1224,7 @@
     top: -12px;
     left: 20px;
     font-family: "Jua", sans-serif;
-    color: #52DDF4;
+    color: #68B2FB;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
@@ -1235,4 +1238,12 @@
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+#result{
+    width: auto;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    right: 1%;
 }
