@@ -1247,3 +1247,426 @@
     top: 25%;
     right: 1%;
 }
+
+.six{
+    width: 100%;
+    height: 700px;
+    background-color: #FFECCD;
+    position: absolute;
+    bottom: -2900px;
+    left: 0px;
+
+}
+
+.six > h3{
+    width: 100%;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
+    color: #F6A92C;
+}
+
+.six > p {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    top: 45px;
+}
+
+.talk_select{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+
+}
+
+.talk_select > img {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 17%;
+    left: 10%;
+}
+
+.talk_select > p{
+    width: 100%;
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    font-family: "Jua", sans-serif;
+    color: #FAB584;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #FFD3B4;
+}
+
+#pink{
+    width: 15%;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+
+#green{
+    width: 15%;
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+
+#vitamin{
+    position: absolute;
+    top: 44%;
+    left: 17%;
+    width: 200px;
+}
+
+#vitamin2{
+    position: absolute;
+    top: 58%;
+    left: 17%;
+    width: 200px;
+}
+
+
+.talking{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+
+}
+
+.talking > img {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 19%;
+    left: 5%;
+}
+
+.talking > p{
+    width: 100%;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    font-family: "Jua", sans-serif;
+    color: #B2D37D;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #FFD3B4;
+}
+
+.chat5{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    border-radius: 10px;
+}
+
+.chat5 > #a {
+    width: 220px;
+    height: 25px;
+    background-color: #DFEEC7;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #b{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #c{
+    width: 416px;
+    height: 25px;
+    background-color: #DFEEC7;
+    position: absolute;
+    top: 24%;
+    left: 3%;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    font-size: medium;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #d{
+    width: 250px;
+    height: 25px;
+    background-color: #DFEEC7;
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #e{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #f{
+    width: 420px;
+    height: 25px;
+    background-color: #DFEEC7;
+    position: absolute;
+    top: 64%;
+    left: 3%;
+    border-color: #D9D9D9;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chat5 > #g{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 79%;
+    left: 64%;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    font-family: "Jua", sans-serif;
+    color: #739B78;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.complete{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+
+}
+
+.complete > img {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 19%;
+    left: 5%;
+}
+
+.complete > p{
+    width: 100%;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    font-family: "Jua", sans-serif;
+    color: #C9867B;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #FFD3B4;
+}
+
+#boy2{
+    position: absolute;
+    top: 44%;
+    left: 75%;
+}
+
+.seven{
+    width: 100%;
+    height: 300px;
+    background-color: #FDDDEE;
+    position: absolute;
+    bottom: -3200px;
+    left: 0px;
+}
+
+.seven > #one{
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: 20px;
+    color: #FE9494;
+}
+
+.seven > #two{
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 40px;
+    color: #FE9494;
+}
+
+.seven > #three{
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 15px;
+    color: #FE9494;
+}
+
+#start{
+    text-decoration: none;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    font-family: "Jua", sans-serif;
+
+}
+
+#start > img {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 19%;
+    left: 5%;
+}
+
+#start > p{
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-family: "Jua", sans-serif;
+    color: #FE9494;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eight{
+    width: 100%;
+    height: 150px;
+    background-color: #A79D9D;
+    position: absolute;
+    bottom: -3350px;
+    left: 0px;
+}
+
+.main_logo > #draw{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 3%;
+    top: 5%;
+}
+
+.main_logo > #text{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 6%;
+    top: 7%;
+}
+
+#About{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 43%;
+}
+
+#AI_Service{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 49%;
+}
+
+#Haram_Service{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 57%;
+}
+
+.eight > p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+
+
