@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.stick{
+    width: 950px;
+    height: 450px;
+    background-image: url("png/stick.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position :absolute;
+    top : 0px;
+    left: 0%;
+    z-index: -2;
+}
+
+#logo{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+#big{
+    font-size: 25px;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+#small{
+    font-size: 20px;
+    font-family: "Jua", sans-serif;
+    color: rgb(40, 40, 40, 85%);
+    position: absolute;
+    left: 40%;
+    top: 55%;
+}
