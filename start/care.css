@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+#logo{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+#big{
+    font-size: 25px;
+    font-family: "Jua", sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 45%;
+}
+
+#small{
+    font-size: 20px;
+    font-family: "Jua", sans-serif;
+    color: rgb(40, 40, 40, 85%);
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+#text1{
+    width:100x;
+    height:auto;
+    position: absolute;
+    left: 1%;
+    top: 11px;
+}
+
+#text2{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 6%;
+    top: 25px;
+}

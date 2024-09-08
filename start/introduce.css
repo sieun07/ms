@@ -9,15 +9,18 @@ body {
     border:0;
     padding:0;
     overflow: hidden;
+    z-index: -2;
 }
 .wrap {
     position:relative;
     top:0;
     width:100%;height:100%;
     transition: 2s;
+    z-index: -2;
 }
 .container {
     width:100%;height:100%;
+    z-index: -2;
 }
 .container:nth-child(1){background-color: white;}
 .container:nth-child(2){background-color: white;}
@@ -32,7 +35,7 @@ body {
     position :absolute;
     top : 0px;
     left: 0%;
-    z-index: -2;
+    z-index: -1;
 }
 
 #logo{
@@ -65,7 +68,7 @@ body {
     height: auto;
     position: absolute;
     right: 10%;
-    top: 130%;
+    top: 120%;
 }
 
 #big2{
@@ -73,7 +76,7 @@ body {
     font-family: "Jua", sans-serif;
     position: absolute;
     left: 15%;
-    top: 145%;
+    top: 135%;
 }
 
 #small2{
@@ -82,7 +85,7 @@ body {
     color: rgb(40, 40, 40, 85%);
     position: absolute;
     left: 15%;
-    top: 150%;
+    top: 140%;
 }
 
 #logo3{
@@ -90,7 +93,7 @@ body {
     height: auto;
     position: absolute;
     left: 10%;
-    top: 160%;
+    top: 150%;
 }
 
 #big3{
@@ -98,7 +101,7 @@ body {
     font-family: "Jua", sans-serif;
     position: absolute;
     left: 40%;
-    top: 175%;
+    top: 165%;
 }
 
 #small3{
@@ -107,7 +110,7 @@ body {
     color: rgb(40, 40, 40, 85%);
     position: absolute;
     left: 40%;
-    top: 180%;
+    top: 170%;
 }
 
 #logo4{
@@ -212,3 +215,11 @@ body {
     overflow: hidden;
 }
 
+.home{
+    width:100x;
+    height:auto;
+    position: absolute;
+    left: 1%;
+    top: 11px;
+    z-index: 1;
+}
