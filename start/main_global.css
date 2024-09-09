@@ -65,6 +65,7 @@ header{
     top: 15px;
     border: 1px solid #6AD0FF;
     font-family: "Jua", sans-serif;
+    z-index: 1;
 
 }
 
@@ -96,6 +97,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 
 #care{
@@ -112,6 +114,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 
 .haram>a:hover ~ .menubar { display: block; } 
@@ -135,6 +138,7 @@ header{
     border: 1px solid #6AD0FF;
     font-family: "Jua", sans-serif;
     text-align: center;
+    z-index: 1;
 }
 
 .heart > p{
@@ -161,6 +165,7 @@ header{
     justify-content: space-around;
     align-items: center;
     border-radius: 0px;
+    z-index: 1;
 }
 
 #detail{
@@ -178,6 +183,7 @@ header{
     justify-content: space-around;
     align-items: center;
     border-radius: 0px;
+    z-index: 1;
 }
 
 #health{
@@ -195,6 +201,7 @@ header{
     justify-content: space-around;
     align-items: center;
     border-radius: 0px;
+    z-index: 1;
 }
 
 #chatbot{
@@ -212,6 +219,7 @@ header{
     justify-content: space-around;
     align-items: center;
     border-radius: 0px;
+    z-index: 1;
 }
 
 .heart>a:hover ~ .menubar2 { display: block; } 
@@ -233,6 +241,7 @@ header{
     top: 25px;
     border: 1px solid #6AD0FF;
     font-family: "Jua", sans-serif;
+    z-index: 1;
 }
 
 .mypage{
@@ -248,4 +257,5 @@ header{
     right: 50px;
     top: 15px;
     border: 1px solid #6AD0FF;
+    z-index: 1;
 }
