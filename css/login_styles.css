@@ -189,8 +189,8 @@ small {
     font-family: "Jua", sans-serif;
 }
 
-.exit{
-    width: 50px;
+#exit{
+    width: 100px;
     height: auto;
     position: absolute;
     top: 30px;
