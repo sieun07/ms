@@ -24,20 +24,15 @@ urls = [
     "https://asana.com/ko/resources/overworked-signs", #직장
     "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/news/5629228.html", #직장
     "https://brunch.co.kr/@jagyegam/4", #대인관계
-    "https://redoasisone.com/entry/%ED%95%99%EC%97%85-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4%EC%9D%98-%EC%98%81%ED%96%A5%EA%B3%BC-%EA%B4%80%EB%A6%AC-%EB%B0%A9%EB%B2%95", #학업
     "https://ideanomads.tistory.com/entry/%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0", # 대인관계
+    "https://redoasisone.com/entry/%ED%95%99%EC%97%85-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4%EC%9D%98-%EC%98%81%ED%96%A5%EA%B3%BC-%EA%B4%80%EB%A6%AC-%EB%B0%A9%EB%B2%95", #학업
     "https://ooooooo.tistory.com/entry/%EA%B0%80%EC%A1%B1-%EA%B0%84-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4%EA%B0%80-%EC%8C%93%EC%9D%B4%EB%8A%94-%EC%9D%B4%EC%9C%A0%EC%99%80-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EC%95%88", #가족관계
     "https://blog.naver.com/koshablog/220864781364", #가족관계
     "https://www.mykpcc.com/103/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6ODt9&bmode=view&idx=11781005&t=board", #가족관계
-    "https://www.maum-sopoong.or.kr/family-conflict?gcl_keyword=%EA%B0%80%EC%A1%B1%20%EA%B0%88%EB%93%B1&gcl_network=g&gad_source=1&gclid=EAIaIQobChMI477_suXViAMV4g97Bx2U6SV7EAMYASAAEgLan_D_BwE",
     "https://ko.wix.com/blog/post/how-to-deal-with-stress-at-work", #건강
-    "https://www.ncmh.go.kr/ncmh/board/boardView.do;jsessionid=NInEmo7q0nKElVTo9taGIYqUhXvabP9Q3kY5KwDXHdWxGMuEneaKnS9RaukQQwUu.mohwwas2_servlet_engine1?no=137&fno=41&bn=newsView&menu_cd=02_06_02_01&bno=&pageIndex=1&search_item=&search_content=",
-    "https://www.betterlifenews.co.kr/news/articleView.html?idxno=1206",
-    "https://blog.naver.com/jobkoreaman/140208015774",
-    "https://datascience.re.kr/1064",
-    "https://metabiz101.tistory.com/6990554",
-    "https://www.jobkorea.co.kr/goodjob/tip/view?News_No=16683"
-    "https://www.segye.com/newsView/20090201001873"
+    "https://www.betterlifenews.co.kr/news/articleView.html?idxno=1206", #건강
+    "https://metabiz101.tistory.com/6990554", #진로
+    "https://www.segye.com/newsView/20090201001873" # 진로
 
 ]
 
@@ -49,13 +44,13 @@ msg_history = [
     {"role": "system", "content": "당신은 사람들의 고민거리 중 대인관계, 직장, 학업, 가족, 건강, 진로에 대한 스트레스 수치를 판단해주는 AI입니다. 따뜻한 말투와 함께 사용자와의 일상적인 대화를 통해 대인관계, 직장, 학업, 가족, 건강, 진로에 대한 각각의 스트레스 수치를 알려주세요."},
     {"role": "user", "content": [
         {"type": "text", "text": f"이 문서는 우리 서비스 내용에 관한 문서입니다.: {html_contents[0].text}"},
-        {"type": "text", "text": f"이 문서들은 위로를 해주는 방법 및 말투에 관한 참고 문서입니다. : {html_contents[1].text}, {html_contents[2].text}"},
-        {"type": "text", "text": f"이 문서들은 직장 스트레스에 관한 참고 문서입니다. : {html_contents[3].text}, {html_contents[4].text}, {html_contents[5].text}, {html_contents[6].text}, {html_contents[7].text}"},
-        {"type": "text", "text": f"이 문서들은 대인관계 스트레스에 관한 참고 문서입니다. : {html_contents[8].text}, {html_contents[9].text}, {html_contents[10].text}, {html_contents[11].text}, {html_contents[12].text}"},
-        {"type": "text", "text": f"이 문서들은 학업 스트레스에 관한 참고 문서입니다. : {html_contents[13].text}, {html_contents[14].text}, {html_contents[15].text}, {html_contents[16].text}, {html_contents[17].text}"},
-        {"type": "text", "text": f"이 문서들은 가족 스트레스에 관한 참고 문서입니다. : {html_contents[18].text}, {html_contents[19].text}, {html_contents[20].text}, {html_contents[21].text}, {html_contents[22].text}"},
-        {"type": "text", "text": f"이 문서들은 건강 스트레스에 관한 참고 문서입니다. : {html_contents[23].text}, {html_contents[24].text}, {html_contents[25].text}"},
-        {"type": "text", "text": f"이 문서들은 가족 스트레스에 관한 참고 문서입니다. : {html_contents[26].text}, {html_contents[27].text}, {html_contents[28].text}, {html_contents[29].text}, {html_contents[30].text}"},
+        {"type": "text", "text": f"이 문서들은 위로를 해주는 방법 및 말투에 관한 참고 문서입니다. : {html_contents[0].text}, {html_contents[1].text}"},
+        {"type": "text", "text": f"이 문서들은 직장 스트레스에 관한 참고 문서입니다. : {html_contents[2].text}, {html_contents[3].text}"},
+        {"type": "text", "text": f"이 문서들은 대인관계 스트레스에 관한 참고 문서입니다. : {html_contents[4].text}, {html_contents[5].text}"},
+        {"type": "text", "text": f"이 문서들은 학업 스트레스에 관한 참고 문서입니다. : {html_contents[6].text}"},
+        {"type": "text", "text": f"이 문서들은 가족 스트레스에 관한 참고 문서입니다. : {html_contents[7].text}, {html_contents[8].text}, {html_contents[9].text}"},
+        {"type": "text", "text": f"이 문서들은 건강 스트레스에 관한 참고 문서입니다. : {html_contents[10].text}, {html_contents[11].text}"},
+        {"type": "text", "text": f"이 문서들은 진로 스트레스에 관한 참고 문서입니다. : {html_contents[12].text}, {html_contents[13].text}"},
 
     ]}  
 ]
