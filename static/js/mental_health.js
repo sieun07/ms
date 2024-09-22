@@ -1,7 +1,7 @@
-import Header from './Header.js';
-import ChatArea from './ChatArea.js';
-import UserInput from './UserInput.js';
-import { ChatMessage } from './ChatMessage.js';
+import Header from '../../js/Header.js';
+import ChatArea from '../../js/ChatArea.js';
+import UserInput from '../../js/UserInput.js';
+import { ChatMessage } from '../../js/ChatMessage.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const app = document.getElementById('app');
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     exitImg.addEventListener('click', () => {
-        window.location.href = 'https://www.youtube.com'; // 메인 페이지로 이동
+        window.location.href = 'http://127.0.0.1:5500/html/main.html'; // 메인 페이지로 이동
     });
 
     // 메시지 입력창의 동적 크기 조정
